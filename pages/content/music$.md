@@ -18,12 +18,10 @@ Hello, this is an exciting post with three main points:
 2. You can refer to images
 3. You can include syntax highlighted code
 
-![Furby](../assets/furby.png)
 
 ```js
 console.log(`Hello world, 1 + 1 = ${1 + 1}`)
 ```
-![Ele](../assets/404.gif)
 
 # Look at this Video:
 
@@ -31,9 +29,7 @@ console.log(`Hello world, 1 + 1 = ${1 + 1}`)
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
 `youtube: 2Xc9gXyf2G4`
 
-<!-- Begin -->
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/song/media/outer/url?id=27759600.mp3"></iframe>
-<!-- End -->
 
 ## 音乐外链实现
 网易云音乐提供单曲、专辑、歌单、电台节目的外链播放器，将外链播放器放在论坛、网站上，都可以免费播放。
@@ -51,11 +47,7 @@ Markdown 可以直接内联HTML代码，只要博客系统支持iframe调用即�
 
 ...
 
-<!-- Spirits - KOKIA -->
-<!-- Begin -->
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=32069326&auto=0&height=66"></iframe>
-<!-- End -->
-
 ...
 相关参数:
 

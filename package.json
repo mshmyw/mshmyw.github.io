@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vite serve",
-    "build": "rimraf dist && vite build --outDir dist && serve -s dist",
-    "ssr": "rimraf dist && vite-pages ssr && serve dist"
+    "build": "vite build --outDir public && serve -s public",
+    "clear": "rimraf public",
+    "ssr": "rimraf public && vite-pages ssr && serve public"
   },
   "keywords": [],
   "author": "",

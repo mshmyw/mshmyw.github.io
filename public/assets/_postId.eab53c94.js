@@ -1,0 +1,1 @@
+import{u as d,j as e,a as t}from"./index.33a567f7.js";const o=()=>{const{userId:r,postId:s}=d();return e("div",{children:[t("div",{children:"User Post Page"}),e("div",{children:["userId: ",r]}),e("div",{children:["postId: ",s]})]})};var a=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"}));const n={};n.main=a;export{n as default};
