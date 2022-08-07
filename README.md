@@ -1,6 +1,8 @@
 ## mshmyw.github.io
 个人博客系统：fast light, so vite and react
 
+## 参考：
+vite pages: https://blog.csdn.net/qq_36538012/article/details/122891507
 ## vite-pages app starter
 
 This is a demo project for [vite-plugin-react-pages](https://github.com/vitejs/vite-plugin-react-pages).
