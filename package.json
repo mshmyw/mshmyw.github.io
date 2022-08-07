@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite serve",
-    "build": "pnpm run clear && vite build --outDir public",
+    "build": "npm run clear && vite build --outDir public",
     "preview": "serve -s public",
     "clear": "rimraf public",
     "ssr": "rimraf public && vite-pages ssr && serve public"

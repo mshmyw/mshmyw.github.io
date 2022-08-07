@@ -41,11 +41,7 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          if [ -f "${{ github.workspace }}/pnpm-lock.yaml" ]; then
-            echo "::set-output name=manager::pnpm"
-            echo "::set-output name=command::install"
-            exit 0
-          elif [ -f "${{ github.workspace }}/package.json" ]; then
+          if [ -f "${{ github.workspace }}/package.json" ]; then
             echo "::set-output name=manager::npm"
             echo "::set-output name=command::ci"
             exit 0
@@ -63,7 +59,6 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Install dependencies
         run: |
-          npm install -g pnpm
           ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Vite
         env:
