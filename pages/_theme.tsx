@@ -2,10 +2,10 @@ import React from 'react'
 import { createTheme, defaultSideNavs } from 'vite-pages-theme-doc'
 
 export default createTheme({
-  logo: <div style={{ fontSize: '20px' }}>📘 西门吹雪</div>,
+  logo: <div style={{ fontSize: '20px' }}>西门吹雪的博客^_^</div>,
   topNavs: [
     { label: 'Home', path: '/' },
-    {label: '内容', path: '/content', activeIfMatch: 'content'},
+    { label: '内容', path: '/content/earth', activeIfMatch: '/content' },
     { label: '关于', path: '/users', activeIfMatch: '/users' },
     {
       label: 'Guide',
@@ -17,11 +17,7 @@ export default createTheme({
       path: '/reference/glossary',
       activeIfMatch: '/reference',
     },
-    { label: 'Vite', href: 'https://github.com/vitejs/vite' },
-    {
-      label: 'Vite Pages',
-      href: 'https://github.com/vitejs/vite-plugin-react-pages',
-    },
+    { label: 'lanyue', href: 'http://lanyue.eksma.xyz' },
   ],
   sideNavs: (ctx) => {
     return defaultSideNavs(ctx, {
