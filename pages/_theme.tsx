@@ -4,20 +4,20 @@ import { createTheme, defaultSideNavs } from 'vite-pages-theme-doc'
 export default createTheme({
   logo: <div style={{ fontSize: '20px' }}>西门吹雪的博客^_^</div>,
   topNavs: [
-    { label: 'Home', path: '/' },
     { label: '内容', path: '/content/earth', activeIfMatch: '/content' },
-    { label: '关于', path: '/users', activeIfMatch: '/users' },
     {
-      label: 'Guide',
-      path: '/guide/introduce',
-      activeIfMatch: '/guide',
+      label: '随笔',
+      path: '/post/index',
+      activeIfMatch: '/post',
     },
+    { label: '关于', path: '/' },
     {
       label: 'Reference',
       path: '/reference/glossary',
       activeIfMatch: '/reference',
     },
     { label: 'lanyue', href: 'http://lanyue.eksma.xyz' },
+    { label: 'test', path: '/users', activeIfMatch: '/users' },
   ],
   sideNavs: (ctx) => {
     return defaultSideNavs(ctx, {
