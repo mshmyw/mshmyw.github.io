@@ -32,14 +32,6 @@ categories: ["Tool"]
 
 
 
-
-
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbrentvollebregt%2Fhit-counter)
-
-<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
-
-
-
 # 一键解决 go get golang.org/x 包失败
 
 https://shockerli.net/post/go-get-golang-org-x-solution/
@@ -50,5 +42,5 @@ https://shockerli.net/post/go-get-golang-org-x-solution/
 
 1. 熟悉网络，常见数据结构和算法
 2. 熟悉网络，网络安全，ddos攻击，加密算法（rsa），https，OAuth2认证等
-3. 有一定后台开发经验（c,python,golang)，能很好对接
+3. 有一定后台开发经验:c,python,golang，能很好对接
 

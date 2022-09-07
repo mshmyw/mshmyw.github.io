@@ -6,8 +6,6 @@ tags: ["hit Counter", "UV", "PV"]
 categories: ["hit Counter", "UV", "PV"]
 ---
 
-<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
-
 # [HTTP Referer 教程](http://www.ruanyifeng.com/blog/2019/06/http-referer.html)
 
 HTTP 协议在请求（request）的头信息里面，设计了一个`Referer`字段，给出"引荐网页"的 URL。
@@ -22,14 +20,6 @@ HTTP 协议在请求（request）的头信息里面，设计了一个`Referer`�
 
 （3）网页加载静态资源，比如加载图片、脚本、样式。
 
-> ```markup
-> <!-- 加载图片 -->
-> <img src="foo.jpg">
-> <!-- 加载脚本 -->
-> <script src="foo.js"></script>
-> <!-- 加载样式 -->
-> <link href="foo.css" rel="stylesheet">
-> ```
 
 上面这些场景，浏览器都会将当前网址作为`Referer`字段，放在 HTTP 请求的头信息发送。
 
@@ -55,9 +45,6 @@ Cookie 是服务器保存在浏览器的一小段文本信息，每个 Cookie �
 
 Cookie 主要用来分辨两个请求是否来自同一个浏览器，以及用来保存一些状态信息。它的常用场合有以下一些。
 
-- 对话（session）管理：保存登录、购物车等需要记录的信息。
-- 个性化：保存用户的偏好，比如网页的字体大小、背景色等等。
-- 追踪：记录和分析用户行为。
-
-
-
+1 对话（session）管理：保存登录、购物车等需要记录的信息。
+2 个性化：保存用户的偏好，比如网页的字体大小、背景色等等。
+3 追踪：记录和分析用户行为

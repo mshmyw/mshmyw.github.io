@@ -1,1 +1,0 @@
-import{c as e}from"./index.fd0e66e1.js";const n={},a="wrapper";function t({components:o,...r}){return e(a,{...n,...r,components:o,mdxType:"MDXLayout"},e("h1",null,"glossary"))}t.isMDXComponent=!0;var l=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"}));const u={};u.main=l;export{u as default};
