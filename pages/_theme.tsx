@@ -7,7 +7,7 @@ export default createTheme({
     { label: '内容', path: '/content/earth', activeIfMatch: '/content' },
     {
       label: '随笔',
-      path: '/post/index',
+      path: '/post/Visual/china-map',
       activeIfMatch: '/post',
     },
     { label: '关于', path: '/' },
@@ -17,7 +17,6 @@ export default createTheme({
       activeIfMatch: '/reference',
     },
     { label: 'lanyue', href: 'http://lanyue.eksma.xyz' },
-    { label: 'test', path: '/users', activeIfMatch: '/users' },
   ],
   sideNavs: (ctx) => {
     return defaultSideNavs(ctx, {

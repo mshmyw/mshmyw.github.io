@@ -116,7 +116,6 @@ vultr服务重新配置教程：
 
 地址：https://my.vultr.com/subs/?SUBID=32930775
 
-用户名和密码： 838722640@qq.com birthday + me + big brother
 
 2 执行相关配置脚本：https://repl.it/@mshmyw/Python-3
 
